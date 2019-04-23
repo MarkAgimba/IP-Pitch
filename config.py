@@ -32,4 +32,15 @@ class TestConfig(Config):
         Config: The parent config class with General config settings
     '''
     SQLALCHEMY_DATABASE_URL = 'postgresql+psycopg2://Mark:New Pasword@localhost/pitchapp'
-    
+
+class DevConfig(Config):
+    '''
+    Dev config child class
+
+    Args:
+        Config: The parent config class with general config settings
+    '''
+    SQLALCHEMY_DATABASE_URL = 'postgresql+psycopg2://Mark:New Pasword@localhost/pitchapp'
+
+    DEBUG = True
+
