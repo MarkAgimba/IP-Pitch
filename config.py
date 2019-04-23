@@ -24,3 +24,12 @@ class ProdConfig(Config):
     '''
     SQLALCHEMY_DATABASE_URL = os.environ.get("DATABASE_URL")
 
+class TestConfig(Config):
+    '''
+    Testing config child class
+
+    Args:
+        Config: The parent config class with General config settings
+    '''
+    SQLALCHEMY_DATABASE_URL = 'postgresql+psycopg2://Mark:New Pasword@localhost/pitchapp'
+    
