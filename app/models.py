@@ -11,7 +11,7 @@ def load_user(user_id):
 class User(UserMixin,db.Model):
     __tablename__ = 'users'
 
-    id = db.Column(db.Integer,primary key = True)
+    id = db.Column(db.Integer,primary_key = True)
     username = db.Column(db.String(255),index =True)
     firstname = db.Column(db.String(255))
     lastname = db.Column(db.String(255))
