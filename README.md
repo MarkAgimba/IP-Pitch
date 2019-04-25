@@ -32,7 +32,7 @@ This is an app that allows users to create,submit,vote pitches based on categori
 # How it works
 
 * A user needs to sign up
-* A user the needs to sign in order to create,vote and post pitches 
+* A user the needs to login in order to create,vote and post pitches.
 
 # Technologies Used
 * HTML5/CSS 
