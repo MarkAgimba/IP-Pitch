@@ -41,8 +41,8 @@ This is an app that allows users to create,submit,vote pitches based on categori
 * flask
 
 # Support and Contacts
+https://github.com/MarkAgimba
 
-In case You have any issues using this code please do no hesitate to leave a commit here on github.
 
 # License
 
