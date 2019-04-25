@@ -23,7 +23,7 @@ class ProdConfig(Config):
     Args:
         Config: The parent config class with general config classes
     '''
-    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URI")
+    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
 
 class TestConfig(Config):
     '''
